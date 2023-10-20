@@ -1,19 +1,19 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "interittus13",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "Arpit Gupta",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "DevOps Engineer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
+    bio: "👨‍💻 I'm a DevOps wizard on a mission to orchestrate seamless software magic, ensuring that code and systems dance in perfect harmony.",
+    email: "arpt.gupta@outlook.com",
     linkedin: "interittus13",
     github: "Interittus13",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `interittus13-log`,
+      href: "https://github.com/Interittus13/interittus13-log",
     },
   ],
   // blog setting (required)
@@ -24,9 +24,9 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://interittus13-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-nextjs-navy.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
@@ -62,7 +62,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "development", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 1, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
